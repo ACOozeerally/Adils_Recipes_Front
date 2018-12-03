@@ -1,0 +1,48 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    color: rgb(255, 0, 0);
+
+    
+}
+.searchb {
+    background-color: #ff0000;
+}
+
+.title {
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.logo {
+    background-image: url("dogcooking.gif");
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+  
+    /* background-repeat: no-repeat; */
+  
+  }
+  
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #e5ff00;
+} 
