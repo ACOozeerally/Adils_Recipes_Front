@@ -26,7 +26,7 @@ class GetRatings extends Component {
     var data ={
       ratingID: this.props.ratingID,
     }
-    axios.get('http://localhost:8080/AdilsRecipes/rest/recipes/getRecipeRatings/' + this.props.ratingID, data, {headers:{ crossorigin:true}}).then(response => {
+    axios.get('http://35.189.92.56:8080/AdilsRecipes/rest/recipes/getRecipeRatings/' + this.props.ratingID, data, {headers:{ crossorigin:true}}).then(response => {
       this.setState({
         recipeRatings: response.data,
       });

@@ -28,7 +28,7 @@ class UpdateRecipe extends Component {
       cuisine:document.getElementById('cuisine').value,
       ingredients:document.getElementById('ingredients').value
     }
-    axios.put('http://localhost:8080/AdilsRecipes/rest/recipes/updateRecipe/' + this.props.updateID, data, {headers:{ crossorigin:true}}).then((res) => 
+    axios.put('http://35.189.92.56:8080/AdilsRecipes/rest/recipes/updateRecipe/' + this.props.updateID, data, {headers:{ crossorigin:true}}).then((res) => 
     {window.location.reload()});
 
   } 

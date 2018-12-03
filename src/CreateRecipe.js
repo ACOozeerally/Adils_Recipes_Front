@@ -27,7 +27,7 @@ class CreateRecipe extends Component {
       cuisine:document.getElementById('cuisine').value,
       ingredients:document.getElementById('ingredients').value,
     }
-    axios.post('http://localhost:8080/AdilsRecipes/rest/recipes/createRecipe',data, {headers:{ crossorigin:true}}).then((res) => 
+    axios.post('http://35.189.92.56:8080/AdilsRecipes/rest/recipes/createRecipe',data, {headers:{ crossorigin:true}}).then((res) => 
     {window.location.reload()});
 
   } 

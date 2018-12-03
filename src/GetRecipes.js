@@ -22,7 +22,7 @@ class GetRecipes extends Component {
 
   componentWillMount = () => {
     console.log("mount")
-    axios.get('http://localhost:8080/AdilsRecipes/rest/recipes/getAllRecipes').then(response => {
+    axios.get('http://35.189.92.56:8080/AdilsRecipes/rest/recipes/getAllRecipes').then(response => {
       this.setState({
         loaded: true,
         view:false,

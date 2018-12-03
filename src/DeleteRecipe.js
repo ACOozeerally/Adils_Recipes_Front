@@ -23,7 +23,7 @@ class DeleteRecipe extends Component {
     var data ={
       recipeID: this.props.deleteID
     }
-    axios.delete('http://localhost:8080/AdilsRecipes/rest/recipes/deleteRecipe/' + this.props.deleteID, data, {headers:{ crossorigin:true}}).then((res) => 
+    axios.delete('http://35.189.92.56:8080/AdilsRecipes/rest/recipes/deleteRecipe/' + this.props.deleteID, data, {headers:{ crossorigin:true}}).then((res) => 
     {window.location.reload()});
 
   } 
